@@ -1,0 +1,73 @@
+/* colors & fonts */
+
+body {
+  color: #537ec5;
+  background-color: #F1F3F4;
+  font-size: 30px;
+  font-family: "lora";
+  text-align: center;
+}
+h1 {
+  color: #010038;
+  font-family: "Playfair Display";
+  text-align: center;
+}
+
+a { text-decoration: none;
+	font-family: "Open Sans Condensed";
+	color: #f39422
+	}
+.btn-blue { background-color: #f39422;
+	padding: 15px 20px;
+	color: white
+	}
+
+.container {
+	width: 700px;
+	margin: 40px;
+	}
+
+a:hover {
+  color: #010038 ;
+  text-decoration: none;
+}	
+
+#logo { border-radius:50%;
+	width: 200px;
+		}
+
+p { font-size: 27px;
+		}
+
+h2  { color: #293a80;
+	font-family: "Playfair Display";
+		}
+
+div { background: white;  
+padding: 35px;	
+border-radius: 5px;
+box-shadow: 0 8px 10px rgba(0,0,0,.1);     
+margin: 16px auto;
+width: 540px;
+text-align: center;
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.list {
+	list-style:none;
+	padding-left: 0px;
+	}
+
+.list li {
+	display: inline;
+	padding: 10px;
+	}
+
+.list i {
+	font-size: 50px;
+	}
